@@ -6,7 +6,7 @@ import ServicesSection from './components/services/ServicesSection';
 import ChooseUsSection from './components/choose-us/ChooseUsSection';
 // import SubscribeSection from './components/subscribe/SubscribeSection';
 import PortfolioSection from './components/portfolio/PortfolioSection';
-import Footer from './components/footer';
+import FooterSection from './components/FooterSection';
 
 function App() {
   const [portfolioData, setPortfolioData] = useState([]);
@@ -27,7 +27,7 @@ function App() {
       <ChooseUsSection />
       {/* <SubscribeSection /> */}
       <PortfolioSection portfolioData={portfolioData} />
-      <Footer />
+      <FooterSection />
     </main>
   );
 }

@@ -1,4 +1,4 @@
-const footer = () => {
+const FooterSection = () => {
   return (
     <footer className="w-full h-24 md:h-20 bg-blue border-t border-t-grey">
       <div className="container flex flex-col md:flex-row md:justify-between items-center gap-2 md:gap-0 h-full">
@@ -47,4 +47,4 @@ const footer = () => {
     </footer>
   );
 };
-export default footer;
+export default FooterSection;
