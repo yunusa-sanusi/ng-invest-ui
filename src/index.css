@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #edf6ff;
+  color: #32302f;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+  font-family: 'Merriweather', serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 95%;
+  }
+}
